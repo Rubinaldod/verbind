@@ -17,9 +17,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn(inter.className, {'debug-screens': process.env.NODE_ENV === "development"})}>
+      <body className={cn("min-h-screen w-full bg-white",inter.className, {'debug-screens': process.env.NODE_ENV === "development"})}>
 
-        {children}
+{/*side bar */}
+{/* manin page */}
+<div className="p-8 w-full">{children}</div>
+
+        
       </body>
     </html>
   );
