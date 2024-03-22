@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import SideNavbar from "@/components/SideNavbar";
 import { cn } from "@/lib/utils";
+import Topbar from "@/components/TopBar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -21,11 +22,19 @@ export default function RootLayout({
 
 {/*side bar */}
 {/* <p className="border">Sidebar</p> */}
+
+<>
 <SideNavbar />
+</>
+
+
+<div className="flex-1 flex flex-col">
+<Topbar />
+
 {/* manin page */}
 <div className="p-8 w-full">{children}</div>
 
-        
+</div> 
       </body>
     </html>
   );

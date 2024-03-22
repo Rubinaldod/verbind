@@ -1,9 +1,7 @@
-import React from 'react'
 
-type Props = {}
-
-export default function Movimentos({}: Props) {
+export default function Movimentos() {
   return (
     <div>Movimentos</div>
   )
 }
+

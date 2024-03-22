@@ -4,6 +4,6 @@ type Props = {}
 
 export default function CriarConta({}: Props) {
   return (
-    <div>criarconta</div>
+    <div>criar conta</div>
   )
 }
