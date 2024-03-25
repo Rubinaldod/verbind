@@ -6,7 +6,7 @@ import { Button } from './ui/button'
 
 export default function Topbar (){
     return (
-        <div className="abosule w-full min-h-15 align-start flex justify-end pr-9 pt-4 pb-2  gap-4 items-center border-b">
+        <div className="abosule w-full min-h-15 align-start flex justify-end pr-9 pt-4 pb-2  gap-4 items-center ">
        
             <Button variant='secondary' className='rounded-full p-2 w-10 h-10'> <BellDot  className='w-5 h-5'/> </Button>
 
