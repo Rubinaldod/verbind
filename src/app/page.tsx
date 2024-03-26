@@ -1,4 +1,5 @@
 import Bai from "@/components/ui/Cards/Bai";
+import { LastMovmentTable } from "@/components/ui/Table/lastMovTable";
 
 export default function Home() {
   return (
@@ -53,10 +54,12 @@ export default function Home() {
     <div className="p-7">
       
     <div className="flex justify-between max-w-[600px]" >
-        <p className="font-semibold">Últimos mkovimentos</p>
+        <p className="font-semibold">Últimos movimentos</p>
         <p className="font-semibold">Ver mais</p>
     </div>
 
+
+<div><LastMovmentTable /></div>
     
 
 
