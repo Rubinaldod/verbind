@@ -32,7 +32,7 @@ export default function RootLayout({
 <Topbar />
 
 {/* manin page */}
-<div className="h-full bg-[#F5F7FA] w-full">{children}</div>
+<div className="h-full bg-[#F5F7FA] w-full ">{children}</div>
 
 </div> 
       </body>

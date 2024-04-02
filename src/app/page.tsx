@@ -3,7 +3,7 @@ import { LastMovmentTable } from "@/components/ui/Table/lastMovTable";
 
 export default function Home() {
   return (
-    <>
+    <div className="overflow-y-auto ">
     <div className="  flex flex-row p-6 ">
       <div className="flex flex-col flex-grow ">
 
@@ -59,11 +59,11 @@ export default function Home() {
     </div>
 
 
-<div><LastMovmentTable /></div>
+<div className="pt-6 "><LastMovmentTable /></div>
     
 
 
     </div>
-    </>
+    </div>
   );
 }
